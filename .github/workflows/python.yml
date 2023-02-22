@@ -26,4 +26,4 @@ jobs:
 
   - name: build the app
   - run: |
-      python app.py
+      python setup.py sdist bdist_wheel
